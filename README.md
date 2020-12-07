@@ -1,2 +1,2 @@
 # Healthpedia
-A simple Frontend Structure of a healthcare website.
+A simple Frontend Structure of a healthcare website using Bootstrap.
