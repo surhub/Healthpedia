@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="/logo-h.png" />
+
+    <title>About-Healthpedia</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <a class="navbar-brand" href="#">
+            <img src="/logo-h.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+            Healthpedia
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Chronic Diseases</a>
+                        <a class="dropdown-item" href="#">Normal flu</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Get Help</a>
+                    </div>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0 bg-danger mx-1 text-white" type="submit">
+                    Search
+                </button>
+                <button type="button" class="btn btn-primary mx-2" data-toggle="modal" data-target="#loginModal">
+                    Login
+                </button>
+                <button type="button" class="btn btn-warning mx-2" data-toggle="modal" data-target="#exampleModal">
+                    Sign-up
+                </button>
+            </form>
+        </div>
+    </nav>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Welcome to Healthpedia</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="formPassword">Enter Password</label>
+                            <input type="password" class="form-control" id="formPassword">
+                        </div>
+                        <div class="form-group">
+                            <label for="rformPassword">Re-Enter Password</label>
+                            <input type="password" class="form-control" id="formPassword">
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="exampleFormControlSelect1">Choose Role</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>
+                                    <h6>Caretaker</h6>
+                                </option>
+                                <option>
+                                    <h6>Doctor</h6>
+                                </option>
+                                <option>
+                                    <h6>Patient</h6>
+                                </option>
+                                <option>
+                                    <h6>HealthCare Organization</h6>
+                                </option>
+                            </select>
+                        </div>
+                        <button class="btn-primary btn">Submit</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- modal-login -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Login to Healthpedia</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="formPassword">Enter Password</label>
+                            <input type="password" class="form-control" id="formPassword">
+                        </div>
+                        <button class="btn-primary btn">Submit</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <main role="main">
+
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="display-3">Healthpedia!</h1>
+                <p>This is a template for a simple marketing or informational website. It includes a large callout
+                    called a
+                    jumbotron and three supporting pieces of content. Use it as a starting point to create something
+                    more
+                    unique.</p>
+                <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Health is Wealth How??</h2>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
+                        mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
+                        magna
+                        mollis euismod. Donec sed odio dui. </p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>How fasting helps?</h2>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
+                        mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
+                        magna
+                        mollis euismod. Donec sed odio dui. </p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Yoga and its benefit</h2>
+                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id
+                        ligula
+                        porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
+                        nibh,
+                        ut fermentum massa justo sit amet risus.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div>
+            </div>
+
+
+
+        </div> <!-- /container -->
+
+    </main>
+    <footer class="container-fluid blog-footer">
+        <div class="card text-center my-5">
+            <div class="card-header">
+                Now you can support us through Patreon
+            </div>
+            <div class="card-body">
+                <p class="card-text">Thanks for the read</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
+
+
+</body>
+
+</html>
